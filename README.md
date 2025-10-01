@@ -32,8 +32,9 @@ Detect and analyze a ransomware infection that leveraged the Windows utility bit
 ## 🔎 Steps Performed
 
 1. Reviewed the challenge description: ransomware suspected of using bitsadmin.exe.
+   ![The LetsDefend Challenge page explaining what the challenge is about](sigma-challenge-description.png "LetsDefend Learn Sigma Challenge page")
 
-2. Located the Sigma rule file:
+3. Located the Sigma rule file:
  ```
 C:\Users\LetsDefend\Desktop\ChallengeFile\proc_creation_win_bitsadmin_download.yml
 ```
