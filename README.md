@@ -56,3 +56,14 @@ C:\Users\LetsDefend\Desktop\ChallengeFile\proc_creation_win_bitsadmin_download.y
 Explored the Lab Environment provided by LetsDefend
 ![A picture showing the lab environment of LetsDefend for the Sigma challenge](lab-environment.png "A picture of the lab environment from LetsDefend")
 
+I used the Timeline Explorer for my findings
+![Picture showing the Timeline Explorer window before doing any findings](timeline-explorer.png "A picture of theinterface of the Timeline Explorer")
+
+I discovered that the targeted executable file was the one targeted by the Sigma rule
+![A picture of the executable file](target-file.png "The picture shows the targeted executable file")
+
+The command line option used to indicate the file transfer in the Sigma rule
+![A picture of the command-line option used to indicate a file transfer](file-transfer.png "A picture showing the command line for a file transfer")
+
+
+
