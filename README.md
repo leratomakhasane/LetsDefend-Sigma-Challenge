@@ -53,6 +53,6 @@ C:\Users\LetsDefend\Desktop\ChallengeFile\proc_creation_win_bitsadmin_download.y
 
 5. Documented findings and uploaded screenshots for reference.
 
-Explored the Lab Environment provided by LestDefend
-![A picture showing the lab environment of LetsDefend for the Sigma challenge](lab environment.png "A picture of the lab environment from LetsDefend")
+Explored the Lab Environment provided by LetsDefend
+![A picture showing the lab environment of LetsDefend for the Sigma challenge](lab-environment.png "A picture of the lab environment from LetsDefend")
 
