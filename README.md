@@ -57,7 +57,7 @@ Explored the Lab Environment provided by LetsDefend
 ![A picture showing the lab environment of LetsDefend for the Sigma challenge](lab-environment.png "A picture of the lab environment from LetsDefend")
 
 I used the Timeline Explorer for my findings
-![Picture showing the Timeline Explorer window before doing any findings](timeline-explorer.png "A picture of theinterface of the Timeline Explorer")
+![Picture showing the Timeline Explorer window before doing any findings](timeline-explorer.png "A picture of the interface of the Timeline Explorer")
 
 I discovered that the targeted executable file was the one targeted by the Sigma rule
 ![A picture of the executable file](target-file.png "The picture shows the targeted executable file")
@@ -65,5 +65,21 @@ I discovered that the targeted executable file was the one targeted by the Sigma
 The command line option used to indicate the file transfer in the Sigma rule
 ![A picture of the command-line option used to indicate a file transfer](file-transfer.png "A picture showing the command line for a file transfer")
 
+The logical expression in the condition field combined the criteria to trigger the Sigma rule
+![A png file of the command line expression rule for the Sigma](argument-http-based.png "A picture of the command line logical expression for the Sigma rule")
 
+The specific field the Sigma rule captured shows the command being executed
+![The field that shows the command being executed](command-line.png "The command being executed by the Sigma rule")
+
+The single ATT&CK tactic tag listed first in the Sigma rule
+![Single ATT&CK tactic tag listed first in the Sigma rule](ATT&CK.png "The ATT&CK tactic tag")
+
+The primary category of events that this Sigma rule was written to monitor
+![The primary category of events for monitoring the Sigma rule](process_creation.png "Primary category of events for the Sigma rule to monitor")
+
+The specific command line argument the Sigma rule looked for to identify the HTTP-based downloads
+![A png file of the command line expression rule for the Sigma](argument-http-based.png "A picture of the command line logical expression for the Sigma rule")
+
+The command line that miust be present to create a new transfer using bitsadmin
+![A picture of the command-line option used to indicate a file transfer](file-transfer.png "A picture showing the command line for a file transfer")
 
